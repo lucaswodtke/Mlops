@@ -1,12 +1,12 @@
-fastapi[standard]==0.115.12       # FastAPI framework (pypi.org)
-uvicorn[standard]==0.34.1         # ASGI server (pypi.org)
-mlflow==2.21.3                    # MLflow para rastreamento e registry (pypi.org)
-scikit-learn==1.6.1               # scikit-learn para algoritmos de ML (pypi.org)
-joblib==1.4.2                     # Joblib para serialização (pypistats.org)
-numpy==2.2.4                      # NumPy para computação numérica (github.com)
-pandas==2.2.3                     # Pandas para manipulação de dados (pandas.pydata.org)
-matplotlib==3.10.1                # Matplotlib para plotagem (pypi.org)
-seaborn==0.13.2                   # Seaborn para visualização estatística (pypi.org)
-evidently==0.7.0                  # Evidently AI para detecção de drift (pypi.org)
-xgboost==3.0.0                    # XGBoost para gradient boosting (pypi.org)
-requests==2.32.3                  # Cliente HTTP para chamadas de API (pypistats.org)
+fastapi[standard]==0.115.12       # FastAPI framework
+uvicorn[standard]==0.34.1         # ASGI server
+mlflow==2.21.3                    # MLflow para rastreamento e registry 
+scikit-learn==1.6.1               # scikit-learn para algoritmos de ML
+joblib==1.4.2                     # Joblib para serialização
+numpy==2.2.4                      # NumPy para computação numérica
+pandas==2.2.3                     # Pandas para manipulação de dados
+matplotlib==3.10.1                # Matplotlib para plotagem
+seaborn==0.13.2                   # Seaborn para visualização estatística
+evidently==0.7.0                  # Evidently AI para detecção de drift
+xgboost==3.0.0                    # XGBoost para gradient boosting
+requests==2.32.3                  # Cliente HTTP para chamadas de API
