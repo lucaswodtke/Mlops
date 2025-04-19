@@ -98,7 +98,7 @@ Este projeto implementa um pipeline completo de MLOps para previsão de preços 
    ```powershell
    python monitor.py
    ```
-   - O relatório HTML será salvo como `regression_monitoring_report.html`.
+   - O relatório HTML será salvo como `data_drift_report.html`.
 
 
 
