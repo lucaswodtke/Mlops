@@ -59,6 +59,7 @@ Este projeto implementa um pipeline completo de MLOps para previsão de preços 
 ├── X_train.pkl, X_test.pkl # Dados pré-processados
 ├── mlflow.db               # Banco de dados SQLite para MLflow
 └── regression_monitoring_report.html # Relatório de monitoramento Evidently
+├── app_t.py              # API (FINS DE TESTE)
 ├── monitor_aut.py              # Monitoramento de data drift e re-treinamento condicional automatico (FINS DE TESTE)
 ├── train_with_registration.py # Exemplo de treino e registro no Model Registry (FINS DE TESTE)
 ├── trainlocal.py  # Exemplo de Configuração do MLflow para armazenamento local (FINS DE TESTE)
