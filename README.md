@@ -52,13 +52,14 @@ Este projeto implementa um pipeline completo de MLOps para previsão de preços 
 ├── preprocess.py           # EDA e pré-processamento
 ├── train.py                # Treinamento de múltiplos modelos e registro no MLflow
 ├── promote.py              # Script de promoção automática no MLflow Model Registry
-├── monitor.py              # Monitoramento de data drift e re-treinamento condicional
+├── monitor.py              # Monitoramento de data drift e re-treinamento condicional (simplificado)
 ├── requirements.txt        # Dependências do projeto
 ├── california_housing.csv  # Dataset bruto gerado por load_data.py
 ├── scaler.pkl              # Artefato do StandardScaler
 ├── X_train.pkl, X_test.pkl # Dados pré-processados
 ├── mlflow.db               # Banco de dados SQLite para MLflow
 └── regression_monitoring_report.html # Relatório de monitoramento Evidently
+├── monitor_aut.py              # Monitoramento de data drift e re-treinamento condicional automatico (FINS DE TESTE)
 ├── train_with_registration.py # Exemplo de treino e registro no Model Registry (FINS DE TESTE)
 ├── trainlocal.py  # Exemplo de Configuração do MLflow para armazenamento local (FINS DE TESTE)
 ├── test_model.py  # Teste do modelo em produção (FINS DE TESTE)
